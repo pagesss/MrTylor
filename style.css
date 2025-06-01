@@ -344,6 +344,7 @@ header.sticky{
     font-weight: 500;
     margin-bottom: 7px;
     transition: all .7s ease;
+    cursor: pointer;
 }
 
 .row a{
@@ -359,7 +360,7 @@ header.sticky{
 
 @media(max-width:1880px){
     .header{
-        padding: 20px 4%;
+        padding: 30px 4%;
     }
     .social{
         padding: 0 4%;
@@ -369,7 +370,7 @@ header.sticky{
         right: 30%;
     }
     section{
-        padding: 80px 13% 70px;
+        padding: 100px 13% 70px;
     }
     header.sticky{
         padding: 13px 4%;
@@ -378,21 +379,21 @@ header.sticky{
 
 @media(max-width:1670px){
     :root{
-        ---h1-font: 6.5rem;
-        --h2-font: 4.8rem;
+        ---h1-font: 5.5rem;
+        --h2-font: 3.8rem;
         --p-font: 1rem;
     }
 }
 
 @media(max-width:1460px){
     .header{
-        padding: 20px 2%;
+        padding: 30px 2%;
     }
     .social{
         padding: 0 2%;
     }
     section{
-        padding: 80px 10% 70px;
+        padding: 40px 10% 70px;
     }
     header.sticky{
         padding: 13px 2%;
