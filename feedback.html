@@ -10,18 +10,15 @@
 </head>
 <body>
   <div class="container">
-    <form>
+    <form action="https://formspree.io/f/xzzgbpld"
+    method="POST">
       <h1>Sugerencias</h1>
       <div class="id">
-        <input type="text" placeholder="Nombre Completo">
-        <i class="far fa-user"></i>
-      </div>
-      <div class="id">
-        <input type="email" placeholder="Correo">
+        <input type="email" placeholder="Correo" name="_replyto">
         <i class="far fa-envelope"></i>
       </div>
-      <textarea cols="15" rows="5" placeholder="Tu opinion aquí.."></textarea>
-      <button>Send</button>
+      <textarea cols="15" rows="5" placeholder="Tu opinion aquí.." name="message"></textarea>
+      <button type="submit" value="Send">Send</button>
     </form>
   </div>
 </body>
